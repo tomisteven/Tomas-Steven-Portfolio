@@ -1,0 +1,143 @@
+html {
+    overflow-x: hidden;
+    margin: 0px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.cont-svg {
+    display: flex;
+    justify-content: space-around;
+}
+.parent {
+    
+    margin-right: 0px;
+   
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.parent h4 {
+    padding-top: 13px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
+.parent a{
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) 1px solid;
+    padding: 20px;
+    text-align: center;
+    margin-left: 130px;
+    
+}
+
+.div1 {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+    grid-area: 1 / 1 / 2 / 2;
+    background-color: #7aadd6;
+    width: 100%;
+    height: 340px;
+
+    margin-left: 0;
+}
+.div1 a, .div2 a, .div3 a, .div4 a, .div5 a, .div6 a, .div7 a, .div8 a{
+    
+    margin: auto;
+}
+
+
+.div2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: #dc93d5a9;
+    width: 100%;
+    height: 340px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div3 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: #dcbb93;
+    width: 100%;
+    height: 340px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div4 {
+    grid-area: 1 / 4 / 2 / 5;
+    background-color: #e2e2a5;
+    width: 100%;
+    height: 340px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div5 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: #a5e2e3;
+    width: 100%;
+    height: 340px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div6 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: #869ed9;
+    width: 100%;
+    height: 340px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.div7 {
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: #c4f1cb;
+    width: 100%;
+    height: 340px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.div8 {
+    grid-area: 2 / 4 / 3 / 5;
+    background-color: #e5bbba;
+    width: 100%;
+    height: 340px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+

@@ -1,0 +1,15 @@
+.contenedor{
+    width:100%;
+    text-align: center;
+    background-color: rgba(230, 199, 140, 0.281);
+    background-size: cover;
+    height: 140px;
+}
+.titulo h3{
+    position: relative;
+   box-shadow: rgb(0, 0, 0) 0px 0px 8px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    top: 26px;
+}
